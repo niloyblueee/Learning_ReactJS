@@ -1,0 +1,42 @@
+.card{
+  border: rgb(42, 38, 38);
+  border-radius: 30px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 40px;
+  text-align: center;
+  max-width: 500px;
+  display : inline-block;
+  }
+
+.card .card-image1 {
+  max-width: 150px;
+  height: auto;
+  border-radius: 60px;
+  margin-bottom: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+/*.card class name .card imageclass name */
+.card .card-image2 {
+  max-width: 300px;
+  height: auto;
+  border-radius: 60px;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+/*
+.ButtonCssBroCode {
+  background-color: #085e0b; 
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+*/

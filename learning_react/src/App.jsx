@@ -5,6 +5,12 @@ import Food from './Food.jsx';
 import Card from './Card.jsx';
 import Button from './Button/Button.jsx';
 import Student from './Student.jsx';
+
+import UserGreeting from './UserGreeting.jsx';
+
+
+
+
 function App() {
     return (
         <>
@@ -13,10 +19,20 @@ function App() {
           <Footer /> */}
         <Card/>
         <Button />
-        <Student name="Niloy Blueee" age = {23} cgpa = {3.71} tarc = {true}/> {/*props*/}
-        <Student name="Anika Lisa" age = {25} cgpa = {3.5} tarc = {false}/>
-        
 
+        {/*LEARNING WHAT props ARE*/}
+        <Student name="Niloy Blueee" age = {23} cgpa = {3.71} tarc = {true}/> 
+        <Student name="Anika Lisa" age = {25} cgpa = {3.5} tarc = {false}/>
+
+        {/*/Learning Conditional Rendering*/}
+        <UserGreeting isLoggedIn={true} username="Blueee"/>
+        <UserGreeting isLoggedIn={false} username="Shoshi"/>
+        
+        
+        
+        
+        
+        
         </>
     );
 }

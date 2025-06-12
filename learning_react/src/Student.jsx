@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 function Student(props){
     return(
         <div className="student">
@@ -19,12 +20,6 @@ Student.propTypes = {
     cgpa: PropTypes.number,
     tarc: PropTypes.bool,
 }
-//defaultProps is used to set default values for the props
-Student.defaultProps = {
-    name: "Student Name",
-    age: 0,
-    cgpa: 4.00,
-    tarc: false,
-}
+
 
 export default Student;

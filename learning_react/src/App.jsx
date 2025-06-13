@@ -10,7 +10,7 @@ import UserGreeting from './UserGreeting.jsx';
 
 import List from './List.jsx';
 
-
+import Button2 from './Button/Button2.jsx';
 
 function App() {
     return (
@@ -33,11 +33,9 @@ function App() {
         <List/>
 
         {/*Click events*/}
-        
-        
-        
-        
-        
+
+        <Button2 Classname="button-class2" />
+
         </>
     );
 }

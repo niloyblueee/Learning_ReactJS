@@ -12,6 +12,8 @@ import List from './List.jsx';
 
 import Button2 from './Button/Button2.jsx';
 
+import Counter from './Counter.jsx';
+
 function App() {
     return (
         <>
@@ -36,7 +38,14 @@ function App() {
 
         <Button2 Classname="button-class2" />
 
+        {/*lEARNING USE STATE*/}
+        <Counter />
+
+
+
+
         </>
+
     );
 }
 

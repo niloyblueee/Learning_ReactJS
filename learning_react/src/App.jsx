@@ -18,6 +18,7 @@ import OnChange from './OnChange.jsx';
 
 import CounterUp from './CounterUpdaterFunc.jsx';
 
+import DynamicCar from './DynamicCar.jsx';
 function App() {
     return (
         <>
@@ -53,8 +54,10 @@ function App() {
         
         <CounterUp/>
 
+        {/*Learning  updating objects in state*/}
 
-
+        <DynamicCar />
+        
         </>
 
     );

@@ -14,6 +14,8 @@ import Button2 from './Button/Button2.jsx';
 
 import Counter from './Counter.jsx';
 
+import OnChange from './OnChange.jsx';
+
 function App() {
     return (
         <>
@@ -41,6 +43,11 @@ function App() {
         {/*lEARNING USE STATE*/}
         <Counter />
 
+        {/*Learning Onchange*/}
+
+        <OnChange />
+
+ 
 
 
 

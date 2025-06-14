@@ -16,6 +16,8 @@ import Counter from './Counter.jsx';
 
 import OnChange from './OnChange.jsx';
 
+import CounterUp from './CounterUpdaterFunc.jsx';
+
 function App() {
     return (
         <>
@@ -47,7 +49,9 @@ function App() {
 
         <OnChange />
 
- 
+        {/*lEARNING updater function*/}
+        
+        <CounterUp/>
 
 
 

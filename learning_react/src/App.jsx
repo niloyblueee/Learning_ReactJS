@@ -19,7 +19,11 @@ import OnChange from './OnChange.jsx';
 import CounterUp from './CounterUpdaterFunc.jsx';
 
 import DynamicCar from './DynamicCar.jsx';
+
 import JunkFoods from './JunkFoods.jsx';
+
+import ArrObjects from './ArrObjects.jsx'
+
 function App() {
     return (
         <>
@@ -63,8 +67,9 @@ function App() {
 
         <JunkFoods/>
 
+        {/*learning to update array of objects */}
 
-
+        <ArrObjects/>
 
         </>
 

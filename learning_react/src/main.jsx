@@ -4,10 +4,15 @@ import './index.css'
 import ColorPickerApp from './ColorPickerApp/ColorPickerApp.jsx'
 import App from './App.jsx'
 import ToDoApp from './To-Do List App/ToDoApp.jsx'
+import Stopwatch from './StopWatch/Stopwatch.jsx'
+
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/*<ColorPickerApp />*/}
+    <App/> 
     <ToDoApp />
+    <Stopwatch/>
+    <ColorPickerApp />
 
   </StrictMode>,
 )

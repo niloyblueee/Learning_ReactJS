@@ -1,0 +1,32 @@
+is a React Hook that lets you persist values across renders without causing a re-render when the value changes. It’s commonly used for accessing and interacting with DOM elements directly, or for storing mutable values that don’t need to trigger a UI update.
+
+Key Points
+> Returns a mutable object: useRef(initialValue) returns an object with a .current property.
+
+> Does not cause re-renders: Updating .current does not trigger a component re-render.
+
+Common use cases:
+> Accessing DOM nodes (e.g., focusing an input).
+> Storing values that should persist across renders but don’t affect the UI.
+
+import React, { useRef } from 'react';
+
+function MyComponent() {
+  const inputRef = useRef(null);
+
+  function handleClick() {
+    // Access the DOM node directly
+    inputRef.current.focus();
+  }
+
+  return (
+    <div>
+      <input ref={inputRef} type="text" />
+      <button onClick={handleClick}>Focus Input</button>
+    </div>
+  );
+}
+
+Gotchas
+> Changing ref.current does not cause a re-render.
+> Don’t use useRef for values that should trigger UI updates—use useState instead
